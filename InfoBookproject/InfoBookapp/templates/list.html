@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block header %}
+{% endblock header %}
+
+{% block content %}
+<div class="container">
+    <div class="row row-cols-1">
+        <a href="{% url 'InfoBookapp:detail' %}">蔵書データの表示</a>
+        <a href="{% url 'InfoBookapp:create' %}">蔵書データの登録</a>
+        <a href="{% url 'InfoBookapp:insert' %}">蔵書データの検索</a>
+      <div class="col">蔵書データの修正(表示・検索してから)</div>
+      <div class="col">蔵書データの削除(表示・検索してから)</div>
+    </div>
+  </div>
+{% endblock content %}
