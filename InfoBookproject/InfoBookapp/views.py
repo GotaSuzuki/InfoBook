@@ -2,12 +2,12 @@ from django.shortcuts import render
 from .models import BookInfo
 from django.views.generic import ListView, DetailView, CreateView
 
-class BookList(ListView):
-    template_name = 'list.html'
+class BookIndex(ListView):
+    template_name = 'index.html'
     model = BookInfo
 
-class BookDetail(DetailView):
-    template_name = 'detali.html'
+class BookList(ListView):
+    template_name = 'list.html'
     model = BookInfo
 
 class BookCreate(CreateView):
