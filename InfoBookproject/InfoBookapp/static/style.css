@@ -1,8 +1,24 @@
 body{
-	background-color: #fff8dc;
+	background-color: blue;
 }
 
-h1,h2,h3{
+h1{
+	border-width: 0 0 0 8px;
+	border-style: solid;
+	padding-left: 0.3em;
+	padding-right: 0.5em;
+	margin: 0em 0em 0em 0em;
+	font-size: 1.2em;
+	color: white;
+	border-color: #fff8dc;
+	background-color: maroon;
+	border-width: 0.1em 0em 0.1em 0.1em;
+	padding-left: 0.3em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+/*h1,h2,h3{
 	border-width: 0 0 0 8px;
 	border-style: solid;
 	padding-left: 0.3em;
