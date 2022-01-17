@@ -1,5 +1,5 @@
 body{
-	background-color: blue;
+	background-color: #fff8dc;
 }
 
 h1{
@@ -17,6 +17,7 @@ h1{
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
 }
+
 
 /*h1,h2,h3{
 	border-width: 0 0 0 8px;
